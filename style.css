@@ -470,6 +470,10 @@ header .navbar ul li a:hover {
     transition: 0.3s;
 }
 
+.card_footer{
+    display: flex;
+}
+
 
 /*========portfolio end==========*/
 
