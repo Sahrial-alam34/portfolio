@@ -474,6 +474,11 @@ header .navbar ul li a:hover {
     display: flex;
 }
 
+.card li{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
 
 /*========portfolio end==========*/
 
