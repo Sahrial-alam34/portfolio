@@ -75,8 +75,8 @@
                 <h3> <span> age : </span> 24 </h3>
                 <h3> <span> qualification : </span> BSc. Engineering in CSE </h3>
                 <h3> <span> language : </span> Bangla , English </h3>
-                <a href="https://github.com/Sahrial-alam34/portfolio/blob/master/MD_SAHRIAL_ALAM_RESUME.pdf"
-                    target="_blank"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+                <!-- <a href="https://github.com/Sahrial-alam34/portfolio/blob/master/MD_SAHRIAL_ALAM_RESUME.pdf" download="MD_SAHRIAL_ALAM_RESUME.pdf" target="_blank"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a> -->
+                <button class="btn" onclick="downloadCV()">Download CV <i class="fas fa-download"></i></button>
             </div>
 
             <div class="counter">
@@ -896,6 +896,15 @@
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <!-- custom js file link  -->
     <script src="script.js"></script>
+    <!-- for download Cv -->
+    <script>
+        function downloadCV() {
+            var link = document.createElement('a');
+            link.href = 'https://github.com/Sahrial-alam34/portfolio/raw/master/MD_SAHRIAL_ALAM_RESUME.pdf';
+            link.download = 'MD_SAHRIAL_ALAM_RESUME.pdf';
+            link.click();
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
 
     <script>
